@@ -34,14 +34,13 @@ class DateJust
     onDateRangeSelected: noop # External hook
 
   today: new Date()
-  version: "0.1.0"
+  version: "0.1.1"
 
   constructor: (selector, options) ->
     @handleElm selector
 
     if @elm
       @options = Utils.extend {}, @defaultOptions, options
-      @options = Utils.extend {}, @options, @ # Check this is best practise for callbacks, look into only making some methods public.
       @activeDate = @options.existingDate or @options.existingDateRange?[0] or @today
       @handleMinsAndMaxs()
       @handleTemplate()
