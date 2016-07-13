@@ -1,4 +1,6 @@
 .DS_Store
 node_modules/
 examples.html
-/docs
+/docs/dist
+/docs/src
+/docs/docs.html
