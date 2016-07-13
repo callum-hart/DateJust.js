@@ -21,9 +21,9 @@
   </section>
 
   <div class="example">
-    <div class="box">
+    <div class="box centered">
       <span class="box-label">Google datepicker</span>
-      <!-- <img src="images/google-datepicker.png"> -->
+      <img src="images/google-datepicker.png">
     </div>
   </div>
 
@@ -57,7 +57,108 @@
     <p><i>Big thanks to <a href="https://www.commusoft.co.uk/">CommuSoft</a> where I built version 0.1.0</i></p>
   </section>
 
-  <!-- Examples -->
+  <div class="example">
+    <h2>Example #1</h2>
+    <div class="box">
+      <span class="box-label">Result</span>
+      <div id="example-one"></div>
+    </div>
+
+    <div class="box dark">
+      <span class="box-label">HTML</span>
+<pre>
+<code>
+&lt;div id="example-one"&gt;&lt;/div&gt;
+</code>
+</pre>
+    </div>
+
+    <div class="box dark">
+      <span class="box-label">JS</span>
+<pre>
+<code>
+exampleOne = new DateJust("#example-one", {
+  onDateSelected: function(date) {
+    console.log(date);
+  },
+  onDateRangeSelected: function(startDate, endDate) {
+    console.log(startDate + ": " + endDate);
+  }
+});
+</code>
+</pre>
+      </div>
+  </div>
+
+  <div class="example">
+    <h2>Example #2</h2>
+    <div class="box">
+      <span class="box-label">Result</span>
+      <div id="example-two"></div>
+    </div>
+
+    <div class="box dark">
+      <span class="box-label">HTML</span>
+<pre>
+<code>
+&lt;div id="example-two"&gt;&lt;/div&gt;
+</code>
+</pre>
+    </div>
+
+    <div class="box dark">
+      <span class="box-label">JS</span>
+<pre>
+<code>
+exampleTwo = new DateJust("#example-two", {
+  minDate: new Date(2012, 11, 8),
+  maxDate: new Date(2014, 11, 8),
+  existingDate: new Date(2014, 11, 8),
+  onDateSelected: function(date) {
+    console.log(date);
+  },
+  onDateRangeSelected: function(startDate, endDate) {
+    console.log(startDate + ": " + endDate);
+  }
+});
+</code>
+</pre>
+      </div>
+  </div>
+
+  <div class="example">
+    <h2>Example #3</h2>
+    <div class="box">
+      <span class="box-label">Result</span>
+      <div id="example-three"></div>
+    </div>
+
+    <div class="box dark">
+      <span class="box-label">HTML</span>
+<pre>
+<code>
+&lt;div id="example-three"&gt;&lt;/div&gt;
+</code>
+</pre>
+    </div>
+
+    <div class="box dark">
+      <span class="box-label">JS</span>
+<pre>
+<code>
+exampleThree = new DateJust("#example-three", {
+  existingDateRange: [new Date(2016, 11, 8), new Date(2016, 11, 25)],
+  onDateSelected: function(date) {
+    console.log(date);
+  },
+  onDateRangeSelected: function(startDate, endDate) {
+    console.log(startDate + ": " + endDate);
+  }
+});
+</code>
+</pre>
+      </div>
+  </div>
 
   <footer>
     <small>See more at <a href="http://www.callumhart.com">callumhart.com</a></small>
