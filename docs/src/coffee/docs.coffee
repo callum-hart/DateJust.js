@@ -4,7 +4,7 @@ exampleOne = new DateJust "#example-one",
   onDateSelected: (date) ->
     console.log date
   onDateRangeSelected: (startDate, endDate) ->
-    console.log "#{startDate}: #{endDate}"
+    console.log "#{startDate} – #{endDate}"
 
 # Example Two
 
@@ -15,7 +15,7 @@ exampleTwo = new DateJust "#example-two",
   onDateSelected: (date) ->
     console.log date
   onDateRangeSelected: (startDate, endDate) ->
-    console.log "#{startDate}: #{endDate}"
+    console.log "#{startDate} – #{endDate}"
 
 # Example Three
 
@@ -24,4 +24,4 @@ exampleThree = new DateJust "#example-three",
   onDateSelected: (date) ->
     console.log date
   onDateRangeSelected: (startDate, endDate) ->
-    console.log "#{startDate}: #{endDate}"
+    console.log "#{startDate} – #{endDate}"

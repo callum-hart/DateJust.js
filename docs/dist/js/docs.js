@@ -6,7 +6,7 @@
       return console.log(date);
     },
     onDateRangeSelected: function(startDate, endDate) {
-      return console.log(startDate + ": " + endDate);
+      return console.log(startDate + " – " + endDate);
     }
   });
 
@@ -18,7 +18,7 @@
       return console.log(date);
     },
     onDateRangeSelected: function(startDate, endDate) {
-      return console.log(startDate + ": " + endDate);
+      return console.log(startDate + " – " + endDate);
     }
   });
 
@@ -28,7 +28,7 @@
       return console.log(date);
     },
     onDateRangeSelected: function(startDate, endDate) {
-      return console.log(startDate + ": " + endDate);
+      return console.log(startDate + " – " + endDate);
     }
   });
 
