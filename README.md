@@ -26,10 +26,11 @@ DateJust.js is a JavaScript component for **calendars**. It has **powerful contr
   - [Generated HTML](#generated-html)
   - [Conditional CSS Classes](#conditional-css-classes)
     - [todays-date](#todays-date)
+    - [in-previous-month](#in-previous-month)
+    - [in-this-month](#in-this-month)
+    - [in-next-month](#in-next-month)
     - [active-day](#active-day)
     - [day-in-range](#day-in-range)
-    - [in-previous-month](#in-previous-month)
-    - [in-next-month](#in-next-month)
     - [disabled-date](#disabled-date)
 
 ## Getting Started
@@ -177,18 +178,6 @@ Classes that are applied when a certain condition is true.
 - **Condition** Applied to todays date.
 - **Element** `.dj-container ul.days a`
 
-#### active-day
-`.active-day`
-
-- **Condition** Applied to the active date.
-- **Element** `.dj-container ul.days a`
-
-#### day-in-range
-`.day-in-range`
-
-- **Condition** Applied to active dates in a date range.
-- **Element** `.dj-container ul.days a`
-
 #### in-previous-month
 `.in-previous-month`
 
@@ -207,9 +196,21 @@ Classes that are applied when a certain condition is true.
 - **Condition** Applied to dates in the next month.
 - **Element** `.dj-container ul.days a`
 
+#### active-day
+`.active-day`
+
+- **Condition** Applied to the active date.
+- **Element** `.dj-container ul.days a`
+
+#### day-in-range
+`.day-in-range`
+
+- **Condition** Applied to active dates in a date range.
+- **Element** `.dj-container ul.days a`
+
 #### disabled-date
 `.disabled-date`
 
-- **Condition** Applied to dates out of the [`minDate`](mindate) and [`maxDate`](maxdate).
+- **Condition** Applied to dates out of the [`minDate`](#mindate) and [`maxDate`](#maxdate).
 - **Element** `.dj-container ul.days a`
 
