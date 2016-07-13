@@ -1,6 +1,6 @@
 # DateJust.js
 
-DateJust.js is a JavaScript component for **calendars**. It has **powerful controls**, such as scroll to change month, and drag to select a date range.
+DateJust.js is a JavaScript component for **calendars**. It has **powerful controls:** drag to select multiple days, and scroll to change month.
 
 - - -
 ![DateJust.js demo gif](docs/images/date-just-demo.gif)
