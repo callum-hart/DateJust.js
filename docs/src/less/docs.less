@@ -1,0 +1,140 @@
+body {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 60px 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+section {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  #title {
+    margin: 0 0 30px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid rgba(56,70,97,1);
+
+    h1 {
+      margin: 0;
+      font-size: 25px;
+      text-transform: uppercase;
+      color: rgba(56,70,97,1);
+    }
+
+    small {
+      .upperCaseText();
+    }
+  }
+
+  p {
+    margin: 18px 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(56,70,97,.9);
+  }
+
+  a {
+    color: rgba(255,61,61,1);
+    text-decoration: none;
+    font-weight: 600;
+    &:hover {
+      color: darken(rgba(255,127,61,1), 10%);
+    }
+  }
+
+  i {
+    a {
+      font-weight: normal;
+      color: rgba(56,70,97,.9);
+      border-bottom: 1px dotted rgba(56, 70, 97, 0.3);
+      &:hover {
+        color: darken(rgba(56,70,97,.9), 10%);
+      }
+    }
+  }
+}
+
+.example {
+  max-width: 600px;
+  margin: 0 auto;
+
+  h2 {
+    float: left;
+    margin: 30px 0 20px 20px;
+    font-size: 21px;
+    color: rgba(56,70,97,1);
+  }
+}
+
+.box {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 15px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(243,244,246,1);
+
+  &.dark {
+    padding: 0 20px;
+    background: rgba(243,244,246,1);
+  }
+
+  &.centered {
+    text-align: center;
+  }
+
+  .box-label {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    .upperCaseText();
+  }
+
+  pre {
+    margin: 0;
+    overflow: auto;
+  }
+
+  code {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    color: rgba(56,70,97,.9);
+  }
+
+  .github-search-input {
+    margin: 20px 0 20px 69px;
+  }
+
+  .gmail-search-input {
+    margin-left: 138px;
+  }
+}
+
+footer {
+  clear: both;
+  max-width: 560px;
+  margin: 0 auto;
+
+  small {
+    .upperCaseText();
+    float: left;
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 14px 0 0 0;
+    border-top: 2px solid rgba(56,70,97,1);
+  }
+
+  a {
+    color: rgba(56,70,97,.3);
+  }
+}
+
+.upperCaseText() {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(56,70,97,.3);
+}
