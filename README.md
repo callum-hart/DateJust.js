@@ -2,27 +2,31 @@
 
 DateJust.js is a JavaScript component for **calendars**. It has **powerful controls:** drag to select multiple days, and scroll to change month.
 
-- - -
-![DateJust.js demo gif](docs/images/date-just-demo.gif)
-- - -
+> ![DateJust.js demo gif](docs/images/date-just-demo.gif)
 
-- [Getting Started](#getting-started)
-  - [Demo](#demo)
-  - [Supported Browsers](#supported-browsers)
-  - [Dependencies](#dependencies)
-  - [To Run](#to-run)
-  - [To Use](#to-use)
-- [Configuration](#configuration)
-  - [minDate](#mindate)
-  - [maxDate](#maxdate)
-  - [existingDate](#existingdate)
-  - [existingDateRange](#existingdaterange)
-  - [dragSelection](#dragselection)
-  - [scrollControl](#scrollcontrol)
-- [Callbacks](#callbacks)
-  - [onDateSelected](#ondateselected)
-  - [onDateRangeSelected](#ondaterangeselected)
-- [Markup](#markup)
+##### Getting Started
+
+- [Demo](#demo)
+- [Supported Browsers](#supported-browsers)
+- [Dependencies](#dependencies)
+- [To Run](#to-run)
+- [To Use](#to-use)
+
+##### Configuration
+
+- [minDate](#mindate)
+- [maxDate](#maxdate)
+- [existingDate](#existingdate)
+- [existingDateRange](#existingdaterange)
+- [dragSelection](#dragselection)
+- [scrollControl](#scrollcontrol)
+
+##### Callbacks
+
+- [onDateSelected](#ondateselected)
+- [onDateRangeSelected](#ondaterangeselected)
+
+##### Markup
   - [Generated HTML](#generated-html)
   - [Conditional CSS Classes](#conditional-css-classes)
     - [todays-date](#todays-date)
@@ -45,7 +49,7 @@ A demo of the library in action can be [found here](http://www.callumhart.com/op
 - Opera :white_check_mark:
 - ~~Safari~~ known issues:
   - Left arrow facing right :point_left:
-  - Scroll control isn't as smooth as other browsers
+  - Scroll control isn't as smooth as other browsers.
 - ~~Firefox~~ known issues:
   - Drag control to select a date range is buggy.
 
