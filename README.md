@@ -1,6 +1,6 @@
 # DateJust.js
 
-<!-- Todo -->
+DateJust.js is a JavaScript component for **calendars**. It has **powerful controls**, such as scroll to change month, and drag to select a date range.
 
 - [Getting Started](#getting-started)
   - [Demo](#demo)
