@@ -30,6 +30,7 @@ DateJust.js is a JavaScript component for **calendars**. It has **powerful contr
     - [day-in-range](#day-in-range)
     - [in-previous-month](#in-previous-month)
     - [in-next-month](#in-next-month)
+    - [disabled-date](#disabled-date)
 
 ## Getting Started
 
@@ -194,8 +195,21 @@ Classes that are applied when a certain condition is true.
 - **Condition** Applied to dates in the previous month.
 - **Element** `.dj-container ul.days a`
 
+#### in-this-month
+`.in-this-month`
+
+- **Condition** Applied to dates in the active month.
+- **Element** `.dj-container ul.days a`
+
 #### in-next-month
 `.in-next-month`
 
 - **Condition** Applied to dates in the next month.
 - **Element** `.dj-container ul.days a`
+
+#### disabled-date
+`.disabled-date`
+
+- **Condition** Applied to dates out of the [`minDate`](mindate) and [`maxDate`](maxdate).
+- **Element** `.dj-container ul.days a`
+
