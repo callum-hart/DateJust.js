@@ -13,7 +13,26 @@
       <h1>DateJust.js</h1>
     </div>
     <p>
-      DateJust.js is a JavaScript component for <strong>calendars</strong>. It has <strong>powerful controls:</strong> scroll to change month, and drag to select a date range.
+      DateJust.js is a JavaScript component for <strong>calendars</strong>. It has <strong>powerful controls:</strong> drag to select multiple days, and scroll to change month.
+    </p>
+  </section>
+
+  <div class="example">
+    <div class="box centered">
+      <span class="box-label">DateJust</span>
+      <img src="images/date-just-demo.gif">
+    </div>
+  </div>
+
+  <section>
+    <p>
+      It <strong>doesn't have</strong> any <strong>dependencies</strong>.
+    </p>
+    <p>
+      The <strong>library</strong> can be found on <a href="https://github.com/callum-hart/DateJust.js">GitHub</a> as can the <a href="https://github.com/callum-hart/DateJust.js/blob/master/README.md">documentation.</a>
+    </p>
+    <p>
+      And some <strong>examples</strong> can be seen <a href="#first-example">below.</a>
     </p>
     <p>
       If you are familar with <strong>Google calendar</strong>, you may recognise these interactions from its datepicker (small calendar left of the main diary).
@@ -32,32 +51,17 @@
       I love the <strong>ease and speed</strong> in which multiple days can be selected. And the <strong>efficiency</strong> of using a mouse wheel / trackpad todo something other than scroll content up or down is somewhat refreshing.
     </p>
     <p>
-      Having (unsuccessfully) found an existing library, I decided to build my own!
+      Having (unsuccessfully) looked for an existing library, I decided to build my own!
     </p>
     <p>
-      Hence DateJust.js was born...
+      Hence <strong>DateJust.js was born</strong>...
+    </p>
+    <p>
+      <i>Big thanks to <a href="https://www.commusoft.co.uk/">CommuSoft</a> where I built version 0.1.0</i>
     </p>
   </section>
 
-  <div class="example">
-    <div class="box centered">
-      <span class="box-label">DateJust</span>
-      <img src="images/date-just-demo.gif">
-    </div>
-  </div>
-
-  <section>
-    <p>
-      It <strong>doesn't have</strong> any <strong>dependencies</strong>.
-    </p>
-    <p>
-      The <strong>library</strong> can be found on <a href="https://github.com/callum-hart/DateJust.js">GitHub</a> as can the <a href="https://github.com/callum-hart/DateJust.js/blob/master/README.md">documentation.</a>
-    </p>
-    <p>And some <strong>examples</strong> can be seen below:</p>
-    <p><i>Big thanks to <a href="https://www.commusoft.co.uk/">CommuSoft</a> where I built version 0.1.0</i></p>
-  </section>
-
-  <div class="example">
+  <div class="example" id="first-example">
     <h2>Example #1</h2>
     <div class="box">
       <span class="box-label">Result</span>
@@ -65,7 +69,9 @@
     </div>
 
     <div class="box dark">
-      <span class="box-label">HTML</span>
+      <a href="https://github.com/callum-hart/DateJust.js/blob/master/docs/docs.html#L61" class="box-label">
+        HTML
+      </a>
 <pre>
 <code>
 &lt;div id="example-one"&gt;&lt;/div&gt;
@@ -74,7 +80,9 @@
     </div>
 
     <div class="box dark">
-      <span class="box-label">JS</span>
+      <a href="https://github.com/callum-hart/DateJust.js/blob/master/docs/dist/js/docs.js#L4" class="box-label">
+        JS
+      </a>
 <pre>
 <code>
 exampleOne = new DateJust("#example-one", {
@@ -98,7 +106,9 @@ exampleOne = new DateJust("#example-one", {
     </div>
 
     <div class="box dark">
-      <span class="box-label">HTML</span>
+      <a href="https://github.com/callum-hart/DateJust.js/blob/master/docs/docs.html#L94" class="box-label">
+        HTML
+      </a>
 <pre>
 <code>
 &lt;div id="example-two"&gt;&lt;/div&gt;
@@ -107,7 +117,9 @@ exampleOne = new DateJust("#example-one", {
     </div>
 
     <div class="box dark">
-      <span class="box-label">JS</span>
+      <a href="https://github.com/callum-hart/DateJust.js/blob/master/docs/dist/js/docs.js#L13" class="box-label">
+        JS
+      </a>
 <pre>
 <code>
 exampleTwo = new DateJust("#example-two", {
@@ -134,7 +146,9 @@ exampleTwo = new DateJust("#example-two", {
     </div>
 
     <div class="box dark">
-      <span class="box-label">HTML</span>
+      <a href="https://github.com/callum-hart/DateJust.js/blob/master/docs/docs.html#L130" class="box-label">
+        HTML
+      </a>
 <pre>
 <code>
 &lt;div id="example-three"&gt;&lt;/div&gt;
@@ -143,7 +157,9 @@ exampleTwo = new DateJust("#example-two", {
     </div>
 
     <div class="box dark">
-      <span class="box-label">JS</span>
+      <a href="https://github.com/callum-hart/DateJust.js/blob/master/docs/dist/js/docs.js#L25" class="box-label">
+        JS
+      </a>
 <pre>
 <code>
 exampleThree = new DateJust("#example-three", {
@@ -159,6 +175,12 @@ exampleThree = new DateJust("#example-three", {
 </pre>
       </div>
   </div>
+
+  <section>
+    <p>
+      P.S. You can find the source and docs on <a href="https://github.com/callum-hart/DateJust.js">GitHub.</a>
+    </p>
+  </section>
 
   <footer>
     <small>See more at <a href="http://www.callumhart.com">callumhart.com</a></small>
