@@ -1,4 +1,4 @@
-# DateJust.js [](https://badge-size.herokuapp.com/callum-hart/DateJust.js/master/lib/js/date-just.min.js?&color=00DB90)
+# DateJust.js ![](https://badge-size.herokuapp.com/callum-hart/DateJust.js/master/lib/js/date-just.min.js?&color=00DB90)
 
 DateJust.js is a JavaScript component for **calendars**. It has **powerful controls:** drag to select multiple days, and scroll to change month.
 
