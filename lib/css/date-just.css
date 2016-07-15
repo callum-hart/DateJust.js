@@ -79,6 +79,8 @@
 }
 .dj-container .dj-header .previous-month.previous-month,
 .dj-container .dj-header .next-month.previous-month {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .dj-container .dj-header .previous-month.hidden,

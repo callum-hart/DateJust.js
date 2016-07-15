@@ -48,7 +48,6 @@ A demo of the library in action can be [found here](http://www.callumhart.com/op
 - Chrome :white_check_mark:
 - Opera :white_check_mark:
 - ~~Safari~~ known issues:
-  - Left arrow facing right :point_left:
   - Scroll control isn't as smooth as other browsers.
 - ~~Firefox~~ known issues:
   - Drag control to select a date range is buggy.

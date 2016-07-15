@@ -115,7 +115,7 @@
       color: @djBlue;
 
       &.previous-month {
-        transform: rotate(180deg);
+        .rotate(180deg);
       }
 
       &.hidden {
@@ -165,4 +165,14 @@
       }
     }
   }
+}
+
+// ************************************************************
+// Mixins
+// ************************************************************
+
+.rotate(@deg) {
+  -ms-transform: rotate(@deg);
+  -webkit-transform: rotate(@deg);
+  transform: rotate(@deg);
 }
