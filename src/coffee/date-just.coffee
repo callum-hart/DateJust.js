@@ -104,9 +104,8 @@ class DateJust
       else if @activeDay.classList.contains "in-next-month"
         @goForwardMonth()
         @activeDay = @days.querySelector("a.in-this-month[data-date='#{@activeDay.dataset.date}']")
-      else
-        @activeDate = new Date(@activeDay.dataset.date)
 
+      @activeDate = new Date(@activeDay.dataset.date)
       Utils.addClass "active-day", @activeDay
       @options.onDateSelected @activeDate
 
